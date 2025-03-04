@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "reactwithcrud.client", "reactwithcrud.client\reactwithcrud.client.esproj", "{D3B1511A-BFCD-056E-753F-F1C752844961}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactWithCrud.Server", "ReactWithCrud.Server\ReactWithCrud.Server.csproj", "{306BAE19-A715-4FEA-A68A-132009772D90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3B1511A-BFCD-056E-753F-F1C752844961}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3B1511A-BFCD-056E-753F-F1C752844961}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3B1511A-BFCD-056E-753F-F1C752844961}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D3B1511A-BFCD-056E-753F-F1C752844961}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3B1511A-BFCD-056E-753F-F1C752844961}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3B1511A-BFCD-056E-753F-F1C752844961}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{306BAE19-A715-4FEA-A68A-132009772D90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{306BAE19-A715-4FEA-A68A-132009772D90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{306BAE19-A715-4FEA-A68A-132009772D90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{306BAE19-A715-4FEA-A68A-132009772D90}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D360CB2-CAE3-49EC-8257-90A4DC2FAB80}
+	EndGlobalSection
+EndGlobal
