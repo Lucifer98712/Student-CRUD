@@ -1,7 +1,7 @@
 ﻿import { useEffect, useState } from "react";
 import axios from "axios";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./style.css"; // Import custom CSS
+import "./style.css"; 
 
 const API_URL = "https://localhost:7299";
 
@@ -96,6 +96,7 @@ function StudentCrud() {
                             </label>
                             <input
                                 type="text"
+                                placeholder="Enter student name"
                                 className="form-control"
                                 id="name"
                                 value={name}
@@ -109,6 +110,7 @@ function StudentCrud() {
                             </label>
                             <input
                                 type="text"
+                                placeholder="Enter course name"
                                 className="form-control"
                                 id="course"
                                 value={course}
